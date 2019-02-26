@@ -34,5 +34,9 @@
   width: 66%;
   float: left;
   
-
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
