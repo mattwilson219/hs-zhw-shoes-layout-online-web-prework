@@ -34,9 +34,5 @@
   width: 66%;
   float: left;
   
-}
 
-[class*="col-"] {
-  float: left;
-  margin-left: 2%;
-}
+
