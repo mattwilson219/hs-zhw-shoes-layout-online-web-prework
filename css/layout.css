@@ -21,9 +21,7 @@
 .clear {
   clear: both;
 }
-img, video, audio {
-  max-width:100%;
-}
+
 
 
 /* Posititoning Classes */
@@ -31,25 +29,31 @@ img, video, audio {
 .col-1 {
   width: 32%;
   float: left;
+    margin-left: 2%;
+  margin-bottom: 2%;
+  height:100%;
+  min-height: 100%;
   
 }
 
 .col-2 {
   width: 66%;
   float: left;
+    margin-left: 2%;
+  margin-bottom: 2%;
+  height:100%;
+  min-height: 100%;
 }
   
 .col-3 {
   width: 100%;
+    margin-left: 2%;
+  margin-bottom: 2%;
+  height:100%;
+  min-height: 100%;
 }
 
 .first {
   margin-left:0;
 }
 
-[class*='col-'] {
-  margin-left: 2%;
-  margin-bottom: 2%;
-  height:100%;
-  min-height: 100%;
-}
