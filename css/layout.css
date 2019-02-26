@@ -22,6 +22,11 @@
   clear: both;
 }
 
+img, video, audio {
+  max-width:100%;
+}
+
+
 /* Posititoning Classes */
 
 .col-1 {
